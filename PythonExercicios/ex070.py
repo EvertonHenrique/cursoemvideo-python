@@ -5,7 +5,7 @@ print('-=' * 20)
 totalCompra = totalMil = menor = cont = 0
 barato = ''
 while True:
-    nomeProduto = str(input('Nome do Produto: ')).strip()
+    nomeProduto = str(input('Nome do Produto: ')).strip().upper()
     preço = float(input('Preço: R$'))
     cont += 1
     totalCompra += preço
@@ -24,4 +24,4 @@ while True:
 print('{:-^40}'.format(' FIM DO PROGRAMA '))
 print(f'O Total da Compra foi {totalCompra:.2f}')
 print(f'Temos {totalMil} produtos com mais de R$1000,00')
-print(f'O produto mais barato foi {barato} e está custando R${preço}')
+print(f'O produto mais barato foi {barato} e está custando R${menor:.2f}')
