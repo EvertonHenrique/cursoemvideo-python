@@ -1,2 +1,2 @@
 # cursoemvideo-python
- Material do Curso em Video de Pyhon
+ Material do Curso em Video de Python 
